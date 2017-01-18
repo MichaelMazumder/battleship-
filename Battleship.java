@@ -48,6 +48,30 @@ public class Battleship{
       //PRINT THE BOARD BY CALLING YOUR CUSTOM 'printBoard' method
       printBoard();
     }
+    
+    private char size;
+    public Battleship(){
+      public Battleship (char newSize)
+        size = newSize
+    }
+  public char getSize(){
+    return size;
+  }
+    public void setSize(char newSize)
+      size = newSize;
+        
+    }
+    
+  public class Point {
+    public int x = 0; 
+    public int y = 0; 
+    
+    public Point(int a, int b) {
+      x = a; 
+      y = b; 
+      
+    }
+  }
      
     /*
     if (x == 3 && y == 4)
