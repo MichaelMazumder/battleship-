@@ -5,16 +5,34 @@ public class Ship{
   private int x2;
   private int y2; 
 
+  public Ship(){
+    
+  }
   
-  public Ship(int x1, int y1){
+  public Ship(int newx1, int newy1){
     
     x1 = newx1; 
-    y1 = newy1; 
+    y1 = newy1;  
   }
   
-  public String getShip(){
-    return Ship; 
-  }
  
+  public void setx1(int newx1){
+    
+    x1 = newx1;
+  }
   
+  public int gety1(){
+    return y1;
+  }
+  
+  public void setx2(int newx2){
+    x2 = newx2;
+  }
+  
+  public int gety2(){
+    return y2;
+  }
+   public String toString(){
+    return x1 + " " + y1 + " " + x2 + " " + y2; 
+  }
 }
