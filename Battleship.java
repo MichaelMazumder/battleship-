@@ -16,11 +16,18 @@ public class Battleship{
                     {' ', ' ', ' ', ' ', ' '},
                     {' ', ' ', ' ', ' ', ' '}};
   
+ public Battleship(){
+   
+ }
+
+ public void placeShip(int x, int y){
+   ships[x][y] = 'X';
+ }
   /**
   * THIS IS MAIN METHOD
   * THIS IS WHERE THE PROGRAM STARTS
   **/
-  public static void main(String[] args){
+ /* public static void main(String[] args){
     
     //ASK THE USER TO PLACE THEIR FIRST SHIP
     Scanner input = new Scanner(System.in);
@@ -96,7 +103,7 @@ public class Battleship{
     //TO-DO: IN THE NEXT LINES OF CODE, ASK THE USER TO PLACE THE SECOND AND THIRD SHIPS
    
 
-  }
+//  }
   
   /**
   * THIS IS A CUSTOM METHOD THAT PRINT THE BOARD

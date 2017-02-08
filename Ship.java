@@ -9,10 +9,12 @@ public class Ship{
     
   }
   
-  public Ship(int newx1, int newy1){
+  public Ship(int newx1, int newy1, int newx2, int newy2){
     
     x1 = newx1; 
-    y1 = newy1;  
+    y1 = newy1; 
+    x2 = newx2;
+    y2 = newy2;
   }
   
  
