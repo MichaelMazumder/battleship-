@@ -11,7 +11,7 @@ public class Player{
     rank = 'A';*/
   }
   public Player(boolean newWin){
-    //color = newColor;
+    //color = newColor; 
     win = newWin;
     int x1 = getRandomNumber(5, 0); 
     int y1 = getRandomNumber(10, 0);
