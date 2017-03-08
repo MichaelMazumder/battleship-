@@ -13,10 +13,10 @@ public class Player{
   public Player(boolean newWin){
     //color = newColor; 
     win = newWin;
-    int x1 = getRandomNumber(5, 0); 
-    int y1 = getRandomNumber(10, 0);
-    int x2 = getRandomNumber(5, 0); 
-    int y2 = getRandomNumber(10, 0); 
+    int x1 = getRandomNumber(4, 0); 
+    int y1 = getRandomNumber(9, 0);
+    int x2 = getRandomNumber(4, 0); 
+    int y2 = getRandomNumber(9, 0); 
     ship = new Ship(x1, y1, x2, y2);
   }
 

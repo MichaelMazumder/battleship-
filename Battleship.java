@@ -16,94 +16,13 @@ public class Battleship{
                     {' ', ' ', ' ', ' ', ' '},
                     {' ', ' ', ' ', ' ', ' '}};
   
- public Battleship(){
-   
- }
+   public Battleship(){
 
- public void placeShip(int x, int y){
-   ships[x][y] = 'X';
- }
-  /**
-  * THIS IS MAIN METHOD
-  * THIS IS WHERE THE PROGRAM STARTS
-  **/
- /* public static void main(String[] args){
-    
-    //ASK THE USER TO PLACE THEIR FIRST SHIP
-    Scanner input = new Scanner(System.in);
-    
-    int x = -1;
-    int y = -1;
-    
-    while(x != 3 && y != 4){
-      //PROMPT THE USER TO PUT IN X AND Y LOCATION
-      System.out.println("Enter in x and then y to place your first ship.");
+   }
 
-      //TELL USER TO ENTER IN X
-      System.out.println("x: ");
-      //THE VALUE THAT THE USER PUTS IN GOES INSIDE THE 'x' VARIABLE
-      x = input.nextInt();
-
-      //TELL THE USER TO ENTER IN Y
-      System.out.println("y: ");
-      //THE VALUE THAT THE USER PUTS IN GOES INSIDE THE 'y' VARIABLE
-      y = input.nextInt();
-
-      //UPDATE THE BOARD BY CALLING THE SHIPS ARRAY USING INDEX CALLING
-      ships[x][y] = 'O'; 
-
-      //PRINT THE BOARD BY CALLING YOUR CUSTOM 'printBoard' method
-      printBoard();
-    }
-    
-    private char size;
-    public Battleship(){
-      public Battleship (char newSize)
-        size = newSize
-    }
-  public char getSize(){
-    return size;
-  }
-    public void setSize(char newSize)
-      size = newSize;
-        
-    }
-    
-  public class Point {
-    public int x = 0; 
-    public int y = 0; 
-    
-    public Point(int a, int b) {
-      x = a; 
-      y = b; 
-      
-    }
-  }
-     
-    /*
-    if (x == 3 && y == 4)
-      System.out.println("The ship was sunk");
-    else 
-    {
-    System.out.println("Enter in x and then y to place your second ship.");
-    
-    System.out.println("x: ");
-    x = input.nextInt();
-    
-    System.out.println("y: ");
-    y = input.nextInt();
-    
-    ships[x][y] = 'O';
-    printBoard();
-    
-    if (x == 3 && y == 4)
-      System.out.println("The ship was sunk");
-    }*/
-    
-    //TO-DO: IN THE NEXT LINES OF CODE, ASK THE USER TO PLACE THE SECOND AND THIRD SHIPS
-   
-
-//  }
+   public void placeShip(int x, int y){
+     ships[y][x] = 'X';
+   }
   
   /**
   * THIS IS A CUSTOM METHOD THAT PRINT THE BOARD

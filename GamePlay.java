@@ -1,8 +1,6 @@
 public class GamePlay{
  
-  System.out.println("Welcome to BattleShip")
-    
-        System.out.println("Choose the placement of your first ship")
+  System.out.println("Welcome to BattleShip. Choose the placement of your first ship")
     
  Scanner input = new Scanner(System.ln):
   int x1;
